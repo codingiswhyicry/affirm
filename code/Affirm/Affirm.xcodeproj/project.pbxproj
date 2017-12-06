@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		411F5F20DFC7BA9D8E5C8964 /* Pods_Affirm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA95C754D5E6D67DC30A02E /* Pods_Affirm.framework */; };
 		9C14DE9C1FD53031005C834F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C14DE9B1FD53031005C834F /* AppDelegate.swift */; };
 		9C14DE9E1FD53031005C834F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C14DE9D1FD53031005C834F /* ViewController.swift */; };
 		9C14DEA11FD53031005C834F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C14DE9F1FD53031005C834F /* Main.storyboard */; };
 		9C14DEA31FD53032005C834F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C14DEA21FD53032005C834F /* Assets.xcassets */; };
 		9C14DEA61FD53032005C834F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C14DEA41FD53032005C834F /* LaunchScreen.storyboard */; };
+		9CF7AA961FD7A135008BAA2E /* onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF7AA951FD7A135008BAA2E /* onboarding.swift */; };
+		9CF7AA9D1FD7A1B8008BAA2E /* Montserrat-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CF7AA9A1FD7A1B8008BAA2E /* Montserrat-BlackItalic.otf */; };
+		9CF7AA9E1FD7A1B8008BAA2E /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CF7AA9B1FD7A1B8008BAA2E /* Montserrat-Bold.otf */; };
+		9CF7AA9F1FD7A1B8008BAA2E /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CF7AA9C1FD7A1B8008BAA2E /* Montserrat-Black.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		071545291ECD7310ABEED0DC /* Pods-Affirm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Affirm/Pods-Affirm.debug.xcconfig"; sourceTree = "<group>"; };
 		9C14DE981FD53031005C834F /* Affirm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Affirm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C14DE9B1FD53031005C834F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C14DE9D1FD53031005C834F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,12 @@
 		9C14DEA21FD53032005C834F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C14DEA51FD53032005C834F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C14DEA71FD53032005C834F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF7AA951FD7A135008BAA2E /* onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboarding.swift; sourceTree = "<group>"; };
+		9CF7AA9A1FD7A1B8008BAA2E /* Montserrat-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.otf"; sourceTree = "<group>"; };
+		9CF7AA9B1FD7A1B8008BAA2E /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		9CF7AA9C1FD7A1B8008BAA2E /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.otf"; sourceTree = "<group>"; };
+		DEA95C754D5E6D67DC30A02E /* Pods_Affirm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Affirm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E610FAA6499D8E6283D81411 /* Pods-Affirm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirm.release.xcconfig"; path = "Pods/Target Support Files/Pods-Affirm/Pods-Affirm.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411F5F20DFC7BA9D8E5C8964 /* Pods_Affirm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25CE68ECD761A9E994A890C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEA95C754D5E6D67DC30A02E /* Pods_Affirm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65A779E6AF672E860EEB3F07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				071545291ECD7310ABEED0DC /* Pods-Affirm.debug.xcconfig */,
+				E610FAA6499D8E6283D81411 /* Pods-Affirm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9C14DE8F1FD53031005C834F = {
 			isa = PBXGroup;
 			children = (
 				9C14DE9A1FD53031005C834F /* Affirm */,
 				9C14DE991FD53031005C834F /* Products */,
+				65A779E6AF672E860EEB3F07 /* Pods */,
+				25CE68ECD761A9E994A890C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +87,33 @@
 			isa = PBXGroup;
 			children = (
 				9C14DE9B1FD53031005C834F /* AppDelegate.swift */,
-				9C14DE9D1FD53031005C834F /* ViewController.swift */,
-				9C14DE9F1FD53031005C834F /* Main.storyboard */,
-				9C14DEA21FD53032005C834F /* Assets.xcassets */,
+				9CF7AA981FD7A14C008BAA2E /* view controllers */,
+				9CF7AA991FD7A159008BAA2E /* UI */,
 				9C14DEA41FD53032005C834F /* LaunchScreen.storyboard */,
 				9C14DEA71FD53032005C834F /* Info.plist */,
 			);
 			path = Affirm;
+			sourceTree = "<group>";
+		};
+		9CF7AA981FD7A14C008BAA2E /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C14DE9D1FD53031005C834F /* ViewController.swift */,
+				9CF7AA951FD7A135008BAA2E /* onboarding.swift */,
+			);
+			path = "view controllers";
+			sourceTree = "<group>";
+		};
+		9CF7AA991FD7A159008BAA2E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9C14DEA21FD53032005C834F /* Assets.xcassets */,
+				9C14DE9F1FD53031005C834F /* Main.storyboard */,
+				9CF7AA9C1FD7A1B8008BAA2E /* Montserrat-Black.otf */,
+				9CF7AA9A1FD7A1B8008BAA2E /* Montserrat-BlackItalic.otf */,
+				9CF7AA9B1FD7A1B8008BAA2E /* Montserrat-Bold.otf */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +123,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C14DEAA1FD53032005C834F /* Build configuration list for PBXNativeTarget "Affirm" */;
 			buildPhases = (
+				FF11C90DCAAD23AED553F3F5 /* [CP] Check Pods Manifest.lock */,
 				9C14DE941FD53031005C834F /* Sources */,
 				9C14DE951FD53031005C834F /* Frameworks */,
 				9C14DE961FD53031005C834F /* Resources */,
+				549A55A5EA07B4627DD78684 /* [CP] Embed Pods Frameworks */,
+				08B13551A8EA635F825DDA9D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,13 +178,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CF7AA9E1FD7A1B8008BAA2E /* Montserrat-Bold.otf in Resources */,
+				9CF7AA9D1FD7A1B8008BAA2E /* Montserrat-BlackItalic.otf in Resources */,
 				9C14DEA61FD53032005C834F /* LaunchScreen.storyboard in Resources */,
 				9C14DEA31FD53032005C834F /* Assets.xcassets in Resources */,
+				9CF7AA9F1FD7A1B8008BAA2E /* Montserrat-Black.otf in Resources */,
 				9C14DEA11FD53031005C834F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08B13551A8EA635F825DDA9D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Affirm/Pods-Affirm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		549A55A5EA07B4627DD78684 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Affirm/Pods-Affirm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF11C90DCAAD23AED553F3F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9C14DE941FD53031005C834F /* Sources */ = {
@@ -137,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C14DE9E1FD53031005C834F /* ViewController.swift in Sources */,
+				9CF7AA961FD7A135008BAA2E /* onboarding.swift in Sources */,
 				9C14DE9C1FD53031005C834F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +379,7 @@
 		};
 		9C14DEAB1FD53032005C834F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 071545291ECD7310ABEED0DC /* Pods-Affirm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +395,7 @@
 		};
 		9C14DEAC1FD53032005C834F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E610FAA6499D8E6283D81411 /* Pods-Affirm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
